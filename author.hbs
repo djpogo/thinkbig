@@ -9,7 +9,7 @@
         <section class="author-profile">
             {{#if profile_image}}
 
-            <img class="author-image" src="{{img_url profile_image}}" title="{{name}}'s Picture"/>
+            <img class="author-image" src="{{img_url profile_image}}" title="{{name}}'s Picture" loading="lazy">
             {{/if}}
             <h1 class="author-title">{{name}}</h1>
             <p class="author-bio inner">{{bio}}</p>

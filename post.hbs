@@ -22,14 +22,17 @@
 
             <section class="post-content">
                 {{#if feature_image}}
-                    <img class="post-featured-hero" src="{{img_url feature_image}}"/>
+                    <img class="post-featured-hero" src="{{img_url feature_image}}" loading="lazy">
                 {{/if}}
                 {{content}}
                 <span class="author-post-footer">
                   Written by
                   {{#foreach authors}}
-                  <img class="author-img-post" src="{{img_url profile_image}}"
-                  title="{{name}}"/>
+                  <img 
+                    class="author-img-post"
+                    src="{{img_url profile_image}}"
+                    title="{{name}}"
+                    loading="lazy">
                   <a class="author-posturl" href="{{url}}">{{name}}</a>.
                   {{/foreach}}
                 </span>

@@ -16,7 +16,7 @@
 
     <section class="post-content">
       {{#if feature_image}}
-          <img class="post-featured-hero" src="{{img_url feature_image}}"/>
+          <img class="post-featured-hero" src="{{img_url feature_image}}" loading="lazy" >
       {{/if}}
       {{content}}
     </section>

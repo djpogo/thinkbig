@@ -13,14 +13,14 @@
                         <span class="hidden">Twitter</span>
                     </a>
                     <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false">
-                        <img src="{{asset 'images/share-button/reddit.png'}}" alt="submit to reddit" border="0" />
+                        <img src="{{asset 'images/share-button/reddit.png'}}" alt="submit to reddit" border="0" loading="lazy">
                     </a>
                     <a class="pocket-btn" data-save-url="{{@site.url}}{{url}}" data-pocket-label="pocket" data-pocket-count="none" data-lang="en"
                         href="https://getpocket.com/signup?&mode=viapocketbutton&label=pocket&count=none&src=&url={{url absolute='true'}}" onclick="window.open(this.href, 'pocket-share', 'width=768,height=516');return false;">
-                        <img src="{{asset 'images/share-button/pocket.png'}}" alt="save to pocket" border="0" />
+                        <img src="{{asset 'images/share-button/pocket.png'}}" alt="save to pocket" border="0" loading="lazy">
                     </a>
                     <a class="linkedin-btn" href="http://www.linkedin.com/shareArticle?mini=true&url={{@site.url}}{{url}}&title={{encode title}}" onclick="window.open(this.href, 'linkedIn-share', 'width=520,height=570');return false;">
-                        <img src="{{asset 'images/share-button/linkedin.png'}}" alt="save to pocket" border="0" />
+                        <img src="{{asset 'images/share-button/linkedin.png'}}" alt="save to pocket" border="0" loading="lazy">
                     </a>
                 </div>
                 <!--googleon: all-->
