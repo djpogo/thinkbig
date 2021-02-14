@@ -106,25 +106,21 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* Import the font file with the icons in it */
 @font-face {
     font-family: 'icons';
-    src:url('../fonts/icons.eot');
-    src:url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/icons.woff') format('woff'),
-        url('../fonts/icons.ttf') format('truetype'),
-        url('../fonts/icons.svg#icons') format('svg');
+    src:url('../fonts/icons.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bta_Gillius';
-    src: url('../fonts/GilliusADFNo2-Regular.otf');
+    src: url('../fonts/GilliusADFNo2-Regular.woff2') format('woff2');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2');
     font-style: normal;
     font-weight: normal;
 }
