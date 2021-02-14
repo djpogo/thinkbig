@@ -62,10 +62,11 @@ $(function ($) {
         }
 
         // return if not scroll to the bottom
+        /*
         if (lastScrollY + lastWindowHeight <= lastDocumentHeight - buffer) {
             ticking = false;
             return;
-        }
+        }*/
 
         /**
         * maxPages is defined in default.hbs and is the value
